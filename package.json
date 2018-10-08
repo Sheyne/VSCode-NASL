@@ -1,0 +1,26 @@
+{
+    "name": "nasl",
+    "displayName": "NASL",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Tenable",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nasl",
+            "aliases": ["NASL", "nasl"],
+            "extensions": [".nasl",".inc",".tool"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nasl",
+            "scopeName": "source.nasl",
+            "path": "./syntaxes/NASL.tmLanguage"
+        }]
+    }
+}
